@@ -1,0 +1,110 @@
+body {
+    background-color: thistle;
+  
+   
+    
+}
+.h1 { 
+    color: mediumorchid;
+    text-align: center;
+    background-color: peachpuff;
+    padding: 2px 3px 2px 3px;
+    margin: 3px 4px 3px 4px;
+    border: 1px dashed;
+    box-shadow: 2px 2px ;
+    border-radius: 1rem;
+    border-width: 10px;
+
+}
+.h1:hover{
+    background-color: hotpink;
+    color: navy;
+    transition: 0.7s;
+    cursor: crosshair;
+}
+.parh1 {
+    color: mediumorchid;
+    text-align: center;
+    background-color: peachpuff;
+    padding: 3px 3px 3px 3px;
+   margin: 3px 4px 3px 4px;
+   border: 1px dashed;
+   box-shadow: 2px 2px ;
+   border-radius: 1rem;
+   border-width: 10px;
+
+}
+.parh1:hover{
+    background-color: peru;
+    color: forestgreen;
+    transition: 0.7s;
+    cursor: crosshair;
+}
+
+h2 {
+    text-align: center;
+    color: mediumorchid ;
+    text-decoration: solid underline;
+    
+
+}
+.list {
+    list-style-type: none;
+    background-color:peachpuff ;
+    color: mediumorchid;
+    border: 1px dashed ;
+    display: flexbox; /*flex-wrap: wrap;*/
+    justify-content:space-around;
+    padding: 6px 6px 6px 6px;
+    margin: 8px 8px 8px 8px;
+    text-align: center;
+    margin: 3px 4px 3px 4px;
+   box-shadow: 2px 2px ;
+   border-radius: 1rem;
+   border-width: 5px;
+}
+.list:hover{
+    background-color:darksalmon;
+    color:cyan;
+    transition: 0.7s;
+    cursor: crosshair;
+}
+.button{
+    background-color: rgb(34, 2, 42);
+    color: bisque;
+    border: 2px solid blanchedalmond;
+    display: flexbox;
+    text-align: center;
+    
+
+
+}
+.button:hover{
+    background-color: lavenderblush;
+    color: darkmagenta;
+    transition: 0.7s;
+    cursor: crosshair;
+}
+input{
+    background-color:mistyrose;
+    color: darkorchid;
+
+}
+textarea{
+    background-color:mistyrose;
+    color: darkorchid;
+}
+label{
+    color: darkslategrey;
+    
+}
+#submit{
+    background-color: violet;
+    color: darkred;
+}
+#submit:hover{
+    background-color: gold;
+    color: orangered;
+    transition: 0.7s;
+    cursor: crosshair;
+}
